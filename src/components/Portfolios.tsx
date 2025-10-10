@@ -6,7 +6,7 @@ export default function Portfolios() {
       id: 1,
       title: "Direction artistique du spiritueux L’Rhum",
       category: ["Logo", "Direction artistique", "Spiritueux"],
-      image: "/images/portfolio1.png",
+      image: "/images/portfolios/menu.png",
     },
     {
       id: 2,
@@ -18,7 +18,7 @@ export default function Portfolios() {
       id: 3,
       title: "Maëlle Ranquet",
       category: ["Logo", "Identité visuelle"],
-      image: "/images/portfolio3.png",
+      image: "/images/portfolios/menu.png",
     },
   ];
 
