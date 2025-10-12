@@ -9,8 +9,7 @@ import { Menu, X } from "lucide-react"
 export default function Navbar() {
   const pathname = usePathname()
   const [menuOpen, setMenuOpen] = useState(false)
-
-  // Empêche le scroll de la page quand le menu mobile est ouvert
+ 
   useEffect(() => {
     document.body.style.overflow = menuOpen ? 'hidden' : ''
   }, [menuOpen])
@@ -24,10 +23,11 @@ export default function Navbar() {
 
   return (
     <nav
-      className={`fixed top-0 left-0 w-full z-50 transition-colors duration-500 ${
-        menuOpen ? 'bg-black' : 'bg-transparent'
-      }`}
-    >
+    className={`fixed top-0 left-0 w-full z-50 transition-colors duration-500 ${
+      menuOpen ? 'bg-black' : 'bg-transparent'
+    }`}
+  >
+  
       <div className="container mx-auto flex justify-between items-center py-4 px-4 md:px-8">
         {/* Logo */}
         <Link href='/' className="flex items-center">
