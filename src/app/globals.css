@@ -6,8 +6,33 @@ html {
   scroll-behavior: smooth;
 }
 .mt-navbar {
-  margin-top: 100px; /* adapte selon la hauteur de ta navbar */
+  margin-top: 100px;  
 }
+
+.marquee {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+
+.marquee__inner {
+  display: inline-flex;
+  white-space: nowrap;
+  animation: marquee-scroll 120s linear infinite;
+}
+
+/* Animation fluide et sans espace */
+@keyframes marquee-scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+
+
 
 @theme inline {
   --color-background: var(--background);
