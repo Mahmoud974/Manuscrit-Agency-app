@@ -44,7 +44,7 @@ export default function Portfolios() {
 
   return (
     <section
-      className="relative min-h-screen bg-cover bg-center bg-no-repeat -mt-12 pt-46 pb-24 text-white"
+      className="relative  min-h-screen bg-cover bg-center bg-no-repeat -mt-12 pt-46 pb-24 text-white"
       style={{
         backgroundImage: "url('/images/background-grey.png')",
       }}

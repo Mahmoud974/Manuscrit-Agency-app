@@ -45,7 +45,7 @@ export default function Portfolio() {
     <>
       <Navbar />
       <section
-        className="relative min-h-screen bg-cover bg-center bg-no-repeat text-white flex flex-col items-center py-24 sm:py-32 px-4"
+        className="relative -mt-46 min-h-screen bg-cover bg-center bg-no-repeat text-white flex flex-col items-center py-24 sm:py-32 px-4"
         style={{ backgroundImage: "url('/images/background-grey.png')" }}
       >
         {/* Titre */}
