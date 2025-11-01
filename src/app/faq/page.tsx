@@ -40,7 +40,7 @@ export default function Portfolio() {
     <>
       <Navbar />
 
-      {/* SECTION FAQ AVEC BACKGROUND */}
+     
       <section
         className="relative -mt-46 min-h-screen bg-cover bg-center bg-no-repeat text-white flex flex-col items-center py-24 sm:py-32 px-4"
         style={{ backgroundImage: "url('/images/background-grey.png')" }}
@@ -55,7 +55,7 @@ export default function Portfolio() {
           </p>
         </div>
 
-        {/* FAQ */}
+   
         <div className="w-full max-w-3xl mx-auto space-y-5 mb-24">
           {faq.map((item, index) => (
             <div

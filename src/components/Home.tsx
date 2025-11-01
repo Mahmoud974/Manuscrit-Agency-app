@@ -79,8 +79,8 @@ export default function Home() {
       {/* Contenu principal */}
       <div className="relative z-10 flex flex-col justify-between h-full">
         <Navbar />
-
-        <div className="container mx-auto text-left px-6 mt-42" ref={sectionRef}>
+{/* Bloc de texte */}
+        <div className="container mx-auto text-left px-6  -mt-16" ref={sectionRef}>
           <p className="text-5xl md:text-6xl mt-96 font-bold leading-tight mb-4">
             Créez Votre Identité Visuelle <br />
             avec un{" "}
